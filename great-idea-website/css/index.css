@@ -126,9 +126,7 @@ nav a {
 	text-align: center;
 	vertical-align: middle;
 }
-.wrapper > .section-block > p, .wrapper > .section-block > h3 {
-	display: inline-block;
-	}
+
 #section-block1 {
 	display: inline-block;
 	width: 50%;
