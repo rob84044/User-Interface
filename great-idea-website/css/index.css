@@ -127,9 +127,8 @@ nav a {
 	vertical-align: middle;
 }
 
-#section-block1 {
+.section-block1 {
 	display: inline-block;
-	width: 50%;
 }
 
 /* End Features and about sections code */
