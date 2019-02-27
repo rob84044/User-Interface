@@ -123,13 +123,51 @@ nav a {
 
 .wrapper{
 	width: 100%;
-	text-align: center;
 	vertical-align: middle;
 }
 
 .section-block1 {
 	display: inline-block;
-	width: 49%;
+	text-align: left;
+	max-width: 49%;
+	margin: 0px 5px 25px 0px;
+}
+
+.section-block2 {
+	display: inline-block;
+	text-align: left;
+	max-width: 31%;
+	margin: 25px 0px 25px 0px;
 }
 
 /* End Features and about sections code */
+
+/* Begin the Middle graphic code */
+.wrapper img{
+	width: 100%;
+	padding: 10px;
+}
+
+/* End the Middle graphic code */
+
+/* Begin the footer code */
+
+footer {
+	margin: 35px 0px 0px 0px;
+}
+#copy {
+	text-align: center;
+}
+footer a {
+	text-decoration: none;
+	color: black;
+	}
+	footer a:hover, footer a:active {
+		color: white;
+		background-color: black;
+	}
+	footer a:link, footer a:visited {
+		color: black;
+		background-color: white;
+	}
+/* End the footer code */
