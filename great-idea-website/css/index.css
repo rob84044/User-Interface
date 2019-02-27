@@ -126,10 +126,12 @@ nav a {
 	text-align: center;
 	vertical-align: middle;
 }
-/* .section-block {
+.wrapper > .section-block > p, .wrapper > .section-block > h3 {
 	display: inline-block;
-} */
-.block1 {
+	}
+#section-block1 {
 	display: inline-block;
+	width: 50%;
 }
+
 /* End Features and about sections code */
