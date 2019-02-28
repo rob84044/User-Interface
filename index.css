@@ -20,8 +20,8 @@ time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font: inherit;
 	vertical-align: baseline;
+	font-family: 'Laila', serif;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -64,20 +64,28 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+	body {
+		background-color:black;
+	}
 .container {
 	width: 1000px;
 	margin: 0 auto;
+	background-color: gray;
 }
 /* Begin Header/Navigation menu code */
 header{
 	margin: 0px 0px 60px 0px;
 	text-align: center;
 	width: 100%;
-	padding: 50px 0px;
+	padding: 10px 0px;
+	position: fixed;
+	background-color: rgb(1, 64, 136);
 }
+
 #nav-menu, #nav-logo{
 	display: inline-block;
 	vertical-align: middle;
+	
 }
 #nav-menu{
 	padding: 0px 100px 0px 0px;
@@ -85,7 +93,7 @@ header{
 }
 nav a {
 	padding: 30px;
-	color: grey;
+	color: white;
 	text-decoration: none;
 }
 /* End Header/Navigation menu code */
@@ -100,6 +108,7 @@ nav a {
 #sub, #sub-logo{
 	display: inline-block;
 	vertical-align: middle;
+	margin-top: 100px;
 }
 #sub {
 	font-size: 75px;
@@ -110,8 +119,13 @@ nav a {
 #button1{
 	padding: 10px 40px;
 	margin: 0px;
+	background-color: blue;
+	border: 1px black solid;
+	color:white;
+}
+#button1:hover {
 	background-color: white;
-	border: 1px black solid
+	color: blue;
 }
 #mega-huge{
 	padding: 0px;
@@ -163,11 +177,7 @@ footer a {
 	color: black;
 	}
 	footer a:hover, footer a:active {
-		color: white;
-		background-color: black;
-	}
-	footer a:link, footer a:visited {
 		color: black;
 		background-color: white;
 	}
-/* End the footer code */
+	/* End the footer code */
