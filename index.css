@@ -74,11 +74,16 @@ h1, h2, h3, h4, h5 {
 }
 /* Begin Header/Navigation menu code */
 header{
-	margin: 0px 0px 60px 0px;
 	text-align: center;
 	width: 100%;
 	padding: 10px 0px;
 	position: fixed;
+	margin: 5% auto;
+	height: 50px; 
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
 	background-color: rgb(1, 64, 136);
 }
 
@@ -88,7 +93,7 @@ header{
 	
 }
 #nav-menu{
-	padding: 0px 100px 0px 0px;
+	padding: 0px 0px 0px 0px;
 	margin: 0px;
 }
 nav a {
@@ -103,12 +108,12 @@ nav a {
  width:100%;
  padding: 10px 0px;
  text-align: center;
- margin: 0px 0px 100px 0px;
+ margin: 100px 0px 10px 0px;
 }
 #sub, #sub-logo{
 	display: inline-block;
 	vertical-align: middle;
-	margin-top: 100px;
+
 }
 #sub {
 	font-size: 75px;
