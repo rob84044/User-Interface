@@ -70,7 +70,7 @@ h1, h2, h3, h4, h5 {
 .container {
 	width: 1000px;
 	margin: 0 auto;
-	background-color: gray;
+	background-color: white;
 }
 /* Begin Header/Navigation menu code */
 header{
